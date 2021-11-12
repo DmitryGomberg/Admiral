@@ -193,6 +193,11 @@ $(document).ready(function () {
       $('.info__blok-more').addClass('hide');
    });
 
+    $('.info__buy-more').click(function () {
+      $('.info__buy').removeClass('hide');
+      $('.info__buy-more').addClass('hide');
+   });
+
 
    
 
