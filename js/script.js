@@ -163,16 +163,39 @@ $(document).ready(function () {
    }).eq(0).addClass("active");
 
 
+
+   $(".info__tabs-body-item").not(":first").hide();
+   $(".info__tabs-head-item").click(function () {
+      $(".info__tabs-head-item").removeClass("active").eq($(this).index()).addClass("active");
+      $(".info__tabs-body-item").hide().eq($(this).index()).fadeIn();
+   }).eq(0).addClass("active");
+
+
+
+
+
    $('.header__drop-tab-content-item-head').not(this).removeClass('in').next().slideUp();
    $('.header__drop-tab-content-item-head').click(function () {
       $(this).toggleClass('in').next().slideToggle();
       $('.header__drop-tab-content-item-head').not(this).removeClass('in').next().slideUp();
    });
+
    $('.header__mob-wrap-head').not(this).removeClass('in').next().slideUp();
    $('.header__mob-wrap-head').click(function () {
       $(this).toggleClass('in').next().slideToggle();
       $('.header__mob-wrap-head').not(this).removeClass('in').next().slideUp();
    });
+
+
+
+   $('.info__blok-more').click(function () {
+      $('.info__blok-review').removeClass('hide');
+      $('.info__blok-more').addClass('hide');
+   });
+
+
+   
+
    $('.header__bottom-menu-open').click(function () {
       if ($(window).width() <= '734') {
          $('.icon-menu-x').toggleClass('icon-menu').toggleClass('icon-close');
