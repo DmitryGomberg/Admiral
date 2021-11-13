@@ -304,6 +304,10 @@ select {
   margin-right: 20px;
 }
 
+.header__top-menu-item:hover {
+  text-decoration: underline;
+}
+
 .header__top-menu-item:last-child {
   margin-right: 0;
 }
@@ -316,6 +320,10 @@ select {
   line-height: 15px;
   color: #4F66C0;
   margin-left: 15px;
+}
+
+.header-phones__item:hover {
+  text-decoration: underline;
 }
 
 .header-phones__item:first-child {
@@ -384,6 +392,13 @@ select {
   cursor: pointer;
   margin-right: 10px;
   min-width: 38px;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.header__bottom-menu-open:hover {
+  background: #40508f;
 }
 
 .header__bottom-menu-open .icon-menu-x.icon-close::before {
@@ -504,6 +519,13 @@ select {
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.header__bottom-search-link:hover {
+  background: #40508f;
 }
 
 .header__bottom-do {
@@ -1245,6 +1267,13 @@ select {
   background: #4F66C0;
   border-radius: 5px;
   display: inline-block;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.descr__text-move-cart:hover {
+  background: #4558a5;
 }
 
 .descr__text-move-one {
@@ -1259,6 +1288,13 @@ select {
   border: 1px solid #BBBBBB;
   border-radius: 5px;
   padding: 16px 40px;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.descr__text-move-one:hover {
+  background: #eeeded;
 }
 
 .descr__text-move-favor {
@@ -1274,6 +1310,13 @@ select {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 15px;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.descr__text-move-favor:hover {
+  background: #dad6d6;
 }
 
 .descr__img {
@@ -1636,7 +1679,7 @@ select {
 }
 
 .info__blok {
-  padding: 41px 25px;
+  padding: 41px 18px;
   background-color: #fff;
   border-radius: 10px;
 }
@@ -1695,6 +1738,13 @@ select {
   font-size: 13px;
   line-height: 16px;
   color: #000000;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.info__blok-line-write:hover {
+  background: #ecb708;
 }
 
 .info__blok-text {
@@ -1810,7 +1860,7 @@ select {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 12px;
+  line-height: calc(16px + -4 * (100vw - 320px) / 1600);
   color: #000000;
 }
 
@@ -1943,6 +1993,13 @@ select {
   color: #222222;
   cursor: pointer;
   display: block;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.info__blok-more:hover {
+  background: #dbd9d9;
 }
 
 .info__blok-more.hide {
@@ -2009,6 +2066,13 @@ select {
   border-radius: 5px;
   margin-right: 4px;
   margin-bottom: 8px;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.info__blok-prod-item:hover {
+  background: #dbd9d9;
 }
 
 .info__make {
@@ -2049,6 +2113,13 @@ select {
   line-height: 16px;
   color: #222222;
   padding: 7px 15px;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.info__make-head-link:hover {
+  background: #f7f4f4;
 }
 
 .info__make-body {
@@ -2099,6 +2170,13 @@ select {
   font-size: 14px;
   line-height: 17px;
   color: #222222;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.info__make-item-title:hover {
+  text-decoration: underline;
 }
 
 .info__buy {
@@ -2179,6 +2257,13 @@ select {
   line-height: 16px;
   color: #4F66C0;
   margin-bottom: 15px;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.info__buy-card-info-name:hover {
+  text-decoration: underline;
 }
 
 .info__buy-card-info-line {
@@ -2274,6 +2359,13 @@ select {
   font-size: 13px;
   line-height: 15px;
   color: #4F66C0;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.info__buy-card-info-cart:hover {
+  background: #f3f3f5;
 }
 
 .info__buy-card-info-touch {
@@ -2289,6 +2381,13 @@ select {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 12px;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.info__buy-card-info-touch:hover {
+  background: #e1e2e4;
 }
 
 .info__buy-more {
@@ -2314,6 +2413,13 @@ select {
   border-radius: 8px;
   padding: 15px;
   cursor: pointer;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.info__buy-more:hover {
+  background: #cecfd1;
 }
 
 .info__buy-more.hide {
