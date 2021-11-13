@@ -425,7 +425,8 @@ select {
   position: absolute;
   right: -15px;
   top: -9px;
-  padding: 4px;
+  padding-bottom: 1px;
+  padding-top: 3px;
   min-width: 18px;
   min-height: 18px;
   display: -webkit-box;
@@ -442,9 +443,10 @@ select {
   font-style: normal;
   font-weight: normal;
   font-size: 11px;
-  line-height: 13px;
+  line-height: 8px;
   color: #FFFFFF;
   border-radius: 50%;
+  text-align: center;
 }
 
 .header__bottom-do-item {
@@ -927,6 +929,7 @@ select {
 
 .descr__img {
   max-width: 460px;
+  width: 100%;
   position: relative;
 }
 
@@ -2098,6 +2101,7 @@ select {
 
 .info__buy-card-img {
   position: relative;
+  display: block;
 }
 
 .info__buy-card-img picture {
