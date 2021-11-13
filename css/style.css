@@ -944,8 +944,8 @@ select {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: calc(16px + 16 * (100vw - 320px) / 1600);
-  line-height: calc(14px + 23 * (100vw - 320px) / 1600);
+  font-size: 32px;
+  line-height: 120%;
   color: #000000;
   margin-bottom: calc(13px + 12 * (100vw - 320px) / 1600);
 }
@@ -2044,6 +2044,12 @@ select {
           align-items: center;
   margin-top: 15px;
   margin-bottom: 8px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #343434;
 }
 
 .info__make-item-star img {
@@ -2321,6 +2327,12 @@ select {
 
   .info__sidebar {
     display: none;
+  }
+}
+
+@media (max-width: 1100px) {
+  .descr__text-title {
+    font-size: 27px;
   }
 }
 
@@ -2831,6 +2843,12 @@ select {
   }
 }
 
+@media (max-width: 650px) {
+  .descr__text-title {
+    font-size: 20px;
+  }
+}
+
 @media (max-width: 450px) {
   .header__bottom {
     -webkit-box-shadow: 0px 0px 0px rgba(187, 187, 187, 0.25);
@@ -2848,5 +2866,11 @@ select {
     width: 92%;
     height: 1px;
     background-color: #DEDEDE;
+  }
+}
+
+@media (max-width: 400px) {
+  .descr__text-title {
+    font-size: 16px;
   }
 }
